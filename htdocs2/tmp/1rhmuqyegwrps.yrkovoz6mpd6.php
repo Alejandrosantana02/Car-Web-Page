@@ -1,0 +1,17 @@
+<form method="post" class="login">
+    <h2>Login</h2>
+    <?php if (isset($message)): ?>
+    <p class="message"><?= ($message) ?></p>
+    <?php endif; ?>
+    <p>
+        <label for="email">Email</label><br />
+        <input id="email" name="email" type="text" <?= (isset($POST['email'])?('value="'.$POST['email'].'"'):'') ?> />
+    </p>
+    <p>
+        <label for="password">Password</label><br />
+        <input id="password" name="password" type="password" />
+    </p>
+    <p>
+        <input type="submit" />
+    </p>
+</form>

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+    body{text-align:center; color:aliceblue; margin: 0}
+    section img {
+    width: 550px;
+    height: 300px;}
+    #main {
+        display: flex;
+        background-color: red;
+    }
+    #sidebar {
+        flex: 1;
+        background-color: rgb(30, 24, 36);
+        padding: .5em;
+    }
+    #content {
+        flex: 4;
+        background-color: rgb(215, 39, 39);
+        padding: .5em;
+    }
+    #promo {
+        flex: 4;
+        background-color: rgb(255, 255, 255);
+
+    }
+    .header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+    }
+    footer {
+        background-color:  rgb(30, 24, 36);
+        overflow: auto;
+        width: 100%;
+        border: white;
+        padding: .5em;
+    }

@@ -1,0 +1,6 @@
+
+        <loop from="@car_map" to="!@car_map->dry()" step="@car_map->next()">
+            <li><a href="/detail/{{ @car_map.id }}">{{ @car_map.name}}</a></li>
+        </loop>
+
+    
